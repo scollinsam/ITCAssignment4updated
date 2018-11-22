@@ -1,0 +1,117 @@
+.outerContainer {
+    background-image: url("http://cdn.wallpapersafari.com/60/26/TRBfxM.jpg");
+    height: 700px;
+    width: 100%;
+    min-height: 1px;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#palette {
+    background-color: gray;
+    border: 1px solid blue;
+    height: 75%;
+    width: 18%;
+    position: relative;
+    display: inline-block;
+}
+#canvas-height {
+    margin-top: 10px;
+}
+
+#sizeChange {
+    display: inline;
+    margin-left: 146px;
+}
+#colors {
+    width: 80%;
+    height: 62%;
+    position: relative;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#color-picker {
+    align-content: center;
+    display: inline;
+}
+#colorbox1 {
+    height: 29%;
+}
+#colorbox2 {
+    height: 29%;    
+}
+#colorbox3 {
+    height: 29%;
+}
+#colors button {
+    width: 50%;
+    border-radius: 50%;
+    height: 95%;
+    margin-top: 5px;
+    float: left;
+}
+#black {
+    background-color: black;
+}
+#red {
+    background-color: red;
+}
+#green {
+    background-color: green;
+}
+#blue {
+    background-color: blue;
+}
+#purple {
+    background-color: purple;
+}
+#eraser {
+    background-image: url("https://static.thenounproject.com/png/3715-200.png");
+    height: 33%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#brushes {
+    display: flex;
+    margin-top: 1px;
+}
+#rectbrush {
+    background-image: url("http://www.i2symbol.com/images/symbols/blocks/heavy_vertical_bar_u275A_icon_256x256.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+}
+#roundbrush {
+    background-image: url("data:image/jpeg;base64,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");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+#squarebrush {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAS1BMVEUAAAD///+Hh4fIyMgcHBz19fXy8vItLS00NDR4eHhqampcXFxRUVEqKiqMjIxUVFQWFhYICAhISEjOzs46OjpmZmY/Pz9zc3MxMTHhLnWEAAABrUlEQVR4nO3dTU4CQRSF0bYVEWjAX2D/K9WBEx0o6aRT9xXnW8E9w5dUUsPL+vJ0ej1N03TcfbX97rz50Ti/zb+dt1f0sbum6XfH/XC867vDsGs9YeHGGxB+tJ6wcOOwbT1h4QjrR1g/wvoR1o+wfrcgPLeesHDjsGk9YeEI60dYP8L6Edbvb+GqSnOFq+nyVKHL6W2m8HE/1Oj5fq5w3Xr6lT0QEsZHSJgfIWF+hIT5ERLmR0iYH2HvwpGwQISE+RES5kdImB8hYX6EhPkREuZHSJgfIWF+hIT5ERLmR0iYHyFhfoS9C/t/MURYIULC/AgJ8yMkzI+QMD9CwvwICfMjJMyPkDA/QsL8CAnzIyTMj5AwP8LehX/8M0MYEyFhfoSE+RES5kdImB8hYX6EhPkREuZHSJgfIWF+hIT5ERLmR9i7cEdYIELC/AgJ8yMkzI+QMD9CwvwICfMjJMyPkDC/+cJ96+lXNl/4/vxQovVc4d3bfZFWc4U9RFg/wvoR1u8WhMfWExZuHKbWExaOsH6E9SOsH2H9COtHWD/C+t2CsPcL+DDsD2PPHV4/Ac+kfcX99nQ4AAAAAElFTkSuQmCC");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+
+#canvas {
+    background-color: white;
+    border: 1px solid blue;
+    height: 75%;
+    width: 60%;
+    margin-left: 3%;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}

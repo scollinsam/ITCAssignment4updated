@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my page</title>
+        <link rel="stylesheet" type="text/css" href="Assignment4.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+            <div class = "outerContainer">
+                <div id="palette">
+                    <div id="canvas-height">Height:
+                        <input type="text" id="newHeight" placeholder="400px"></div>
+                    <div id="canvas-width">Width:
+                        <input type="text" id="newWidth" placeholder="600px"></div>
+                        <button id="sizeChange">Go</button>
+                    <div id="colors">Choose color:
+                        <input type = "color" id = "color-picker" value="e66465">
+                        <div id="colorbox1">
+                            <button id="black" value = "black"></button>
+                            <button id="red" value = "red"></button>
+                        </div>
+                        <div id="colorbox2">
+                            <button id="green" value = "green"></button>
+                            <button id="blue" value="blue"></button>
+                        </div>
+                        <div id="colorbox3">
+                            <button id="purple" value="purple"></button>
+                            <button id="eraser" value="white"></button>
+                        </div>
+                    </div>
+                    <div id="brushes">Choose Brush:
+                        <button class = "brush" id="rectbrush"></button>
+                        <button class = "brush" id="roundbrush"></button>
+                        <button class = "brush" id="squarebrush"></button>
+                    </div>
+                </div>
+            <div id="canvas"></div>
+        </div>
+             <script src="Assignment4.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
